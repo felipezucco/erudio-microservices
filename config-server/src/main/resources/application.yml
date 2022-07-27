@@ -8,7 +8,14 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/felipezucco/erudio-microservices-repository/erudio-config-server23
+          uri: https://github.com/felipezucco/erudio-microservices
           default-label: main
           search-paths:
-            - 'greeting-service*'
+            - '/greeting-service*'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
