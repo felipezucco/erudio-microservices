@@ -10,8 +10,7 @@ spring:
         git:
           uri: https://github.com/felipezucco/erudio-microservices
           default-label: main
-          search-paths:
-            - '/greeting-service*'
+          search-paths: '*/greeting-service*'
 
 management:
   endpoints:

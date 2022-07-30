@@ -1,0 +1,1 @@
+﻿CREATE SEQUENCE id_sequence increment 1 START 1;
