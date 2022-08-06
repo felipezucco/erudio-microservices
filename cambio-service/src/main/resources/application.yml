@@ -27,4 +27,8 @@ spring:
     user: postgres
     password: a
 
+springdoc:
+  show-actuator: true
+  api-docs:
+    path: cambio-service/v3/api-docs
 
